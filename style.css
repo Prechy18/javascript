@@ -1,0 +1,62 @@
+.count{
+   height: 301px;
+   width: 470.5px;
+   margin: auto;
+   margin-top: 150px;
+}
+.text{
+ font-size: 72px;
+ font-weight: 700;
+ letter-spacing: 4.5px;
+ text-align: center;
+ color: #102A42;
+ font-family: sans-serif; 
+}
+#counter{
+    font-size: 120px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #102A42;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    
+}
+button{
+    font-size: 15.7px;
+    letter-spacing: 4.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    height: 35.5px;
+    width: 147.5px;
+    border: 2px solid #222222;
+    margin: 9px 9px 9px 9px;
+    padding: 7px 14px 7px 14px;
+    font-family: arial;
+    border-radius: 7px;
+}
+.reset{
+    font-size: 15.7px;
+    letter-spacing: 4.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    height: 35.5px;
+    width: 106px;
+    border: 2px solid #222222;
+    margin: 9px 9px 9px 9px;
+    padding: 7px 14px 7px 14px;
+    font-family: arial;
+    border-radius: 7px;
+}
+button:hover{
+    color: #fff;
+    background-color: #222222;
+    transition: all .3s ease-in-out;
+}
+.reset:hover{
+    color: #fff;
+    background-color: #222222;
+    transition: all .3s ease-in-out;
+}

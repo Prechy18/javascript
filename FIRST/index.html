@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <!-- internal script -->
+    <!-- internal script in the head  -->
+    <script>
+        // alert("script in the head")
+    </script>
+</head>
+<body>
+    <h1>Introduction to Javascript</h1>
+    <!-- inline script  -->
+    <button onclick="window.alert('Javascript is at work')">click me</button>
+    <input onclick="window.alert('allow notifications')" type="button" placeholder="okay" id="notifications" value="okay" name="okay">
+    <button onclick="console.log('Hello there')">say hii</button>
+<br>
+<!-- assigment -->
+<input onkeyup="console.log(this)" type="text" placeholder="input text">
+<a onclick="window.alert('this is a link')" href="">click here</a>
+    <input oninput="console.log(this.value)" type="password" placeholder="enter password" name="password" id="password">
+<br>
+<button onclick="greet()">greet</button>
+<br>
+<button onclick="show()">show</button>
+<br>
+<h2 id="name">
+
+</h2>
+<button onclick="showName()">show name</button>
+<button onclick="hideName()">hide name</button>
+
+<h2 id="country"></h2>
+<button onclick="urcountry()">enter your country</button>
+<br>
+<div>
+<img onclick="changeImage(this, 'image/Red JJK.jpg')" src="image/night.jpg" alt="" width="250px">
+</div>
+
+<ul>
+    <li id="firstname"></li>
+    <li id="student_Id"></li>
+    <li id="score"></li>
+    <li id="gender"></li>
+
+</ul>
+    <!-- internal script  -->
+    <!-- internal script in the body -->
+
+    <script src="js/input.js"></script>
+
+</body>
+</html>
