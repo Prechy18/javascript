@@ -60,3 +60,90 @@ button:hover{
     background-color: #222222;
     transition: all .3s ease-in-out;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #b8c0ff, #c8b6ff);
+  }
+  
+  .credit-debit-app {
+    width: 400px;
+    max-width: 85%;
+    padding: 20px;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+  }
+  
+  .credit-debit-app:hover {
+    transform: scale(1.04);
+    box-shadow: 2px 16px 26px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-field {
+    margin: 10px 0;
+  }
+  
+  input,
+  select {
+    padding: 6px;
+    width: 100%;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  button {
+    width: 140px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 9px;
+    text-align: center;
+    background-color: #02192f;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -2px;
+    padding-top: -2px;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+
+  .food{
+    height: 30px;
+    width: 150px;
+    font-size:13px;
+    text-align: center;
+    background-color: #b8c0ff;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #search{
+    width: 210px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 7px;
+  }
+  .sear{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #5c5757;
+    color: #fff;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  

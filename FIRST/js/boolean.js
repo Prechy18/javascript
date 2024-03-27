@@ -37,7 +37,7 @@ let a = 3;
 let b = 2;
 
 // Arithmetic operator
-// Addition(+), Subtraction(-), Multiplication(), Division(/), Modulus(%), Exponential(*)
+// Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), Exponential(**)
 
 let numOne = 3
 let numTwo = 4
@@ -87,7 +87,7 @@ console.log('python'.length > 'dragon'.length)
 // 1. OR operator (||) 
 let boolOne = true;
 let boolTwo = 0;
-let result  = !(boolOne && !boolTwo) ;
+let result  = !(boolOne && !boolTwo);
 console.log(result);
 
 // 2. AND operator (&&)
@@ -97,11 +97,14 @@ console.log(result);
 // pre-increment, post-increment
 
 let count = 5;
-let output =count--;
+let output =count++;
 console.log(output, count);
 
 // Decrement Operator
 // pre-decrement, post-decrement
+let num = 6;
+let outcome =--count;
+console.log(outcome, num);
 
 // Ternary Operator 
 let isDay = true;
