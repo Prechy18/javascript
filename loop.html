@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    .card-wrapper{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    /* grid-template-columns: (10, 80px); */
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .card{
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+font-weight: 600;
+background-color: #87cefa;
+box-shadow: 2px 4px 10px rgba(0, 0, 0,0.4);
+cursor: pointer;
+width: 90px;
+height: 90px;
+  }
+  #product-wrapper {
+    width: 100%;
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    gap: 50px;
+  }
+
+  .product {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+
+  .prod-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .price-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px;
+  }
+  img {
+    width: 230px;
+    height: 220px;
+  }
+  .cart{
+    width: 140px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 9px;
+    text-align: center;
+    background-color: #02192f;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -2px;
+    padding-top: -2px;
+  }
+    </style>
+</head>
+<body>
+    <ul id="card-wrapper" class="card-wrapper">
+        <!-- <li class="card"></li>
+         -->
+    </ul>
+
+
+    <!-- product wrapper  -->
+    <section id="product-wrapper">
+        <div id="product-container" class="product-container container">
+            <!-- <div class="product"> -->
+            <!-- <div>
+                    <img src="FIRST/image/images.jpeg" alt="">
+                 </div> -->
+                
+                    <!-- <div class="product-details">
+                        <h2 style="text-align: center;">Dog</h2>
+                        <div class="price-details">
+                          <p style="margin-left: 3px;">$200</p>
+                          <button class="cart">Add to cart</button>
+                        </div> -->
+                    <!-- </div> -->
+            </div>
+        </div>
+
+    </section>
+    <script src="FIRST/js/loop.js"></script>
+</body>
+</html>

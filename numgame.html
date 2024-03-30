@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Guess my number</title>
+    <style>
+        body{
+            color: whitesmoke;
+            background-color: #030735;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .between{
+            float: right;
+            font-size: 20px;
+            font-family: "Special Elite", system-ui;
+        }
+        .again{
+            background-color: aliceblue;
+            border: none;
+            width: 150px;
+            height: 65px;
+            margin-top: 24px;
+            font-size: 25px;
+            font-family: "Special Elite", system-ui;
+            cursor: pointer;
+        }
+        .again:hover{
+            opacity: 0.8;
+        }
+        .gue{
+            margin: 5px auto;
+            font-size: 40px;
+            text-align: center;
+            font-family: "Special Elite", system-ui;
+            font-weight: 600;
+
+        }
+        .number{
+           background-color: aliceblue;
+           color: black;
+           width: 115px;
+           height: 80px;
+           margin: 10px auto;
+           padding: 26px 26px;
+           text-align: center;
+           font-size: 105px;
+           font-family: "Special Elite", system-ui;
+        }
+        .line{
+            width: 1365px;
+            height: 10px;
+            background-color: aliceblue;
+            margin-left: -7px;
+            margin-top: -85px;
+        }
+        .left{
+            margin-top: 150px;
+        }
+        .Guess{
+            height: 95px;
+            width: 220px;
+            background-color: transparent;
+            border: 4px solid white;
+            outline: none;
+            font-size: 55px;
+            color: aliceblue;
+            font-family: "Special Elite", system-ui;
+            text-align: center;
+            margin-left: 120px;
+            margin-top: -20px;
+        }
+        .check{
+            margin-top: 20px;
+            width: 135px;
+            height: 60px;
+            margin-left: 170px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "Special Elite", system-ui;
+            cursor: pointer;
+        }
+        .check:hover{
+            opacity: 0.8;
+        }
+        .right{
+            margin-left: 800px;
+            margin-top: -230px;
+            font-size: 23px;
+            font-family: "Special Elite", system-ui;
+        }
+        .label-score{
+            margin-top: 130px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <p class="between">(Between 1 and 20)</p>
+        <BUtton class="btn again">Try Again!</BUtton>
+        <p class="gue">Guess the number</p>
+        <div class="number">?</div>
+    </header>
+    <div class="line"></div>
+     <section class="left container">
+        <input type="number" class="Guess"><br>
+        <button class="btn check">Check!</button>
+     </section>
+     <section class="right">
+        <p id="myparag" class="message">Start guessing....</p>
+        <p class="label-score">✍ Score: <span class="score">20</span></p>
+        <p class="label-high">💥 Highscore: <span class="highscore">0</span></p>
+     </section>
+
+    <script src="FIRST/js/numgame.js"></script>
+</body>
+</html>

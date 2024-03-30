@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.teal {
+  color: teal;
+}
+
+.steelblue {
+  color: steelblue;
+}
+
+.orange {
+  color: orange;
+}
+
+.purple {
+  color: purple;
+}
+
+.pink {
+  color: pink;
+}
+
+.crimson {
+  color: crimson;
+}
+
+.chocolate {
+  color: chocolate;
+}
+
+.aqua {
+  color: aqua;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 34, 108);
+  border-radius: 4px;
+  transition: all 500ms ease;
+}
+
+.hide-box {
+  transform: translateX(-110%);
+}
+    </style>
+</head>
+<body>
+    <!-- DOM EVENT -->
+    <!-- Mouse event -->
+    <p class="click">The event occurs when the user clicks on an element</p>
+    <p class="contextmenu">
+      The event occurs when the user right-clicks on an element to open a
+      context menu
+    </p>
+    <p class="dblclick">
+      The event occurs when the user double-clicks on an element
+    </p>
+    <p class="mousedown">
+      The event occurs when the user presses a mouse button over an element
+    </p>
+    <p class="mouseenter">
+      The event occurs when the pointer is moved onto an element
+    </p>
+    <p class="mouseleave">
+      The event occurs when the pointer is moved out of an element
+    </p>
+    <p class="mousemove">
+      The event occurs when the pointer is moving while it is over an element
+    </p>
+    <p class="mouseout">
+      The event occurs when a user moves the mouse pointer out of an element, or
+      out of one of its children
+    </p>
+    <p class="mouseover">
+      The event occurs when the pointer is moved onto an element, or onto one of
+      its children
+    </p>
+    <p class="mouseup">
+      The event occurs when a user releases a mouse button over an element
+    </p>
+
+    <!-- Keyboard event -->
+    <input id="text-input" type="text" />
+
+    <input type="text" id="search" />
+    <button id="search-btn">search</button>
+
+    <!-- Accesing Dom Element -->
+    <h1>getElementsByTagName</h1>
+    <h2 id="main">getElementById</h2>
+    <h3 class="cls">getElementsByClassName</h3>
+    <h4 class="cls-1" id="id-1">querySelector</h4>
+    <ul>
+      querySelectorAll()
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+     
+
+    <div class="box"></div>
+    <br/>
+
+    <button class="hide-btn">hide box</button>
+    <button class="show-btn">show box</button>
+    <br/><br/><br/>
+   
+    <script  src="FIRST/js/dom.js"></script>
+</body>
+</html>
